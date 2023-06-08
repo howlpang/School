@@ -42,7 +42,7 @@
 	
 	//8. 수강신청 처리
 	RegistrationDao registraionDao = RegistrationDao.getInstance();
-	registraionDao.insertRegistraion(registration);
+	registraionDao.insertRegistration(registration);
 	
 	//9. 해당과정의 신청자수를 1증가 시키고, 테이블에 반영시키기
 	course.setReqCnt(course.getReqCnt() + 1);
